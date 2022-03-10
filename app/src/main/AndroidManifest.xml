@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".MainActivity28"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity26"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity25"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity24"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity27"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity23"
+            android:exported="true" />
+        <activity
+            android:name=".update"
+            android:exported="true" />
+        <activity
+            android:name=".alaa"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity22"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity21"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity20"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity16"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity19"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity18"
+            android:exported="true" />
+        <activity
+            android:name=".MassagingAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".ui.chat"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity17"
+            android:exported="true" />
+        <activity
+            android:name=".uii.MainActivity16"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity15"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity13"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity12"
+            android:exported="true"
+            android:label="@string/title_activity_main12"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

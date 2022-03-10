@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <VideoView
+                android:id="@+id/video_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+
+
+        </FrameLayout>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:padding="10dp"
+            android:text="What is opium?"
+            android:textColor="#E53935"
+            android:textSize="20sp" />
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/text1"
+            android:layout_below="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Opium is a depressant drug, which means it slows down the messages traveling between your brain and body. The opium poppy (Papaver somniferum L.) from which opium is derived is one of the earliest plants of which there is recorded medicinal use.1 Evidence of opium cultivation by the Sumerian people dates to 3400BCE, although some scholars believe opium use predates Sumerian culture.2
+
+Opium poppy pods hold a milky substance called latex that contains a number of chemicals, including morphine and codeine.1 Latex is extracted from the opium pods and dried to create opium. Typically, it is be further refined by boiling and drying again.1, 2
+
+What does it look like?
+Opium is a sticky dark-brown gum with a strong odour. It can also be manufactured into a liquid or powder.1, 2
+
+Slang names
+Aunti, Aunti Emma, Big O, O, Black pill, Chandu, Chinese Molasses, Dopium, Dream Gun, Fi-Do-Nie, Gee, Guma, Midnight Oil, Zero.
+Effects of opium
+There is no safe level of drug use. Use of any drug always carries some risk. It’s important to be careful when taking any type of drug.
+
+Opium affects everyone differently, based on:
+
+the person’s size, weight and health
+regularity of use
+whether other drugs are taken around the same time
+the amount taken
+the strength of the drug (which varies between batches).
+Short term effects may include:
+
+euphoria
+relaxation
+analgesia
+slower, shallower breathing
+lower heart rate
+impaired reflexes
+temporary constipation
+loss of appetite"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</ScrollView>

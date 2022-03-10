@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:background="@drawable/bg"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="247dp"
+
+            android:layout_height="69dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="47dp"
+            android:text="FAQs"
+            android:textSize="40sp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="107dp"
+            android:layout_height="84dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            app:srcCompat="@drawable/v" />
+
+        <TextView
+
+            android:id="@+id/textView6"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#3F51B5"
+            android:text="What is the best time to seek help?"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="175dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:text="The best of righteousness is urgent, some say that the addict must reach the bottom in order to be ready for change, but the evidence has proven that the earlier the intervention, the more successful it is."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:textColor="#3F51B5"
+            android:text="What is the role of family and friends?"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+
+            android:id="@+id/textView9"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:padding="10dp"
+            android:text="They should tell everyone they suspect of addiction - whether it is a relative, friend or co-worker - that they have noticed a deterioration in their drinking or drug use, or a deterioration in their mood or physical health."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:textColor="#3F51B5"
+            android:text="Who should the addict turn to first?"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/text_View11"
+            android:layout_width="366dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/textView10"
+            android:padding="10dp"
+            android:text="The doctor can guide the addict at any stage, not just when the person wants to quit the addiction, the doctor can give instructions on how to drink alcohol at an acceptable rate and use medical assistance such as nurses and counselors."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_View11"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:textColor="#3F51B5"
+            android:text="How is an addict treated?"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+
+            android:id="@+id/textView13"
+            android:layout_width="366dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/textView12"
+            android:padding="10dp"
+            android:text="Treatment is tailored to the addicted person. There are many proven treatments that often combine talk therapy with medication. Cognitive behavioral therapies are commonly used because of their high efficacy in addictive problems."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:text="How do self-help groups and rehabilitation centers work?"
+            android:textColor="#3F51B5"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+
+            android:id="@+id/textView15"
+            android:layout_width="366dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/textView14"
+            android:padding="10dp"
+            android:text="Some self-help groups are very useful because they provide a network - often in the absence of family and friends, and provide support during the rehabilitation period."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:textColor="#3F51B5"
+            android:text="Do self-help or home recovery programs work?"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+
+            android:id="@+id/textView17"
+            android:layout_width="366dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/textView16"
+            android:padding="10dp"
+            android:text="naturally. When there is a wide range of treatment options, people are undoubtedly inclined to the appropriate treatment methods, as they will not respond well if they feel that they are stuck in a corner."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:textColor="#3F51B5"
+            android:text="Does recovery mean abstinence in all cases?"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+
+            android:id="@+id/textView19"
+            android:layout_width="366dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/textView18"
+            android:padding="10dp"
+            android:text="The goal may be to control alcohol drinking in a few people with moderate drinking problems. But most people in treatment centers need to aim for abstinence (complete cessation) which is the only option for heroin and cocaine addicts."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:textColor="#3F51B5"
+            android:text="How can an addict be protected from relapse?"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        <TextView
+
+            android:id="@+id/textView21"
+            android:layout_width="366dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/textView20"
+            android:padding="10dp"
+            android:text="There are many ways, one of which is removing or avoiding addictive triggers. Another way is to connect with new people who are not undergoing drug addiction treatment and do not take drugs."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

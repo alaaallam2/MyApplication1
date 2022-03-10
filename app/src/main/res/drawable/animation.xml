@@ -1,0 +1,10 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:duration="1000"
+            android:drawable="@drawable/start"/>
+
+        <item android:duration="1000"
+            android:drawable="@drawable/centre"/>
+
+        <item android:duration="1000"
+            android:drawable="@drawable/end"/>
+    </animation-list>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main12">MainActivity12</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Alaa Allam</string>
+    <string name="nav_header_subtitle">alaamagdyali888@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="menu_home">Services</string>
+    <string name="menu_gallery">calender</string>
+    <string name="already_member">I am already a member.</string>
+    <string name="activity_main28">Share</string>
+    <string name="activity_main15">LogOut</string>
+    <string name="activity_main26">SideEffects</string>
+    <string name="activity_main10">Notification</string>
+    <string name="activity_main11">contuctUs</string>
+    <string name="activity_main17">AboutUs</string>
+    <string name="activity_main18">MyProfile</string>
+    <string name="user_name">UserName</string>
+    <string name="form_username">User Name</string>
+    <string name="form_email">Email ID</string>
+    <string name="form_phone">Phone No</string>
+    <string name="form_password">Password</string>
+    <string name="new_member">New Here ? Sign up instead.</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="passworderror">The password must contain at least 8 character containing, at least one letter and one number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

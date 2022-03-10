@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity7">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textView"
+            android:layout_width="251dp"
+            android:layout_height="69dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="149dp"
+            android:text="Marijuana"
+            android:textSize="40sp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/textView2"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Marijuana  And side effects :"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="175dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="42dp"
+            android:textColor="@color/black"
+            android:text="Marijuana, banjo, hashish, different names for one drug extracted from the cannabis plant, whose intake causes hallucinations, delirium and imbalance, and the active substance in it that directly affects the nervous system is Delta 9 THC “Tetrahydrocannabinol”.
+
+Marijuana has been known since antiquity, and has been used in celebrations and occasions. It also has many uses in medicine, as it has been widely used in the treatment of epilepsy, glaucoma, rheumatism and many other diseases.
+
+It is mentioned here that hashish is about eight times stronger than the effect of marijuana. Although they are extracted from the same plant “Indian hemp”, marijuana is the dry leaves of hemp, while hashish is the liquid extracted from the resin of the cannabis plant “resin”."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="536dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="95dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="107dp"
+            android:layout_height="84dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            app:srcCompat="@drawable/m" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="-619dp"
+            app:srcCompat="@drawable/images" />
+        <TextView
+
+            android:id="@+id/textView5"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:text="Symptoms of marijuana use:"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="175dp" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:text="The effect of marijuana use appears 2 ~ 5 hours after ingestion, and the following can be easily observed:
+Hallucinations, delirium and constant laughter.
+The abuser may engage in deep thought and sit quietly instead of laughing.
+Dryness of the mouth and pharynx.
+Constant feeling of drowsiness.
+Great appetite for food.
+red eyes;"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+
+            android:id="@+id/textView7"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:text="Marijuana side effects :"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="175dp" />
+        <TextView
+            android:id="@+id/textView8"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="42dp"
+            android:layout_margin="10dp"
+            android:text="Marijuana is one of the most widely abused and abused narcotic substances, due to its cheap price, ease of access, and ease of abuse.
+Marijuana is one of the fastest narcotic substances that affect the nervous system due to the rapid access of the active substance to the blood. Once ingested, the person feels in addition to some euphoria and happiness in addition to:
+
+Loss of ability to focus.
+Uncontrollable sensory balance.
+The heart rate increases dramatically.
+
+
+
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView8"
+            app:srcCompat="@drawable/alaa" />
+        <TextView
+
+            android:id="@+id/textView9"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView5"
+            android:text="The effects of marijuana on the respiratory system"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="175dp" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="42dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:text="The effects of marijuana use are clearly visible on the respiratory system, and the following can be easily observed:
+
+Difficulty breathing and severe coughing, in addition to a wheezing sound when coughing.
+Frequent colds, due to weak immunity in general.
+High incidence of pneumonia.
+Just as there are physical effects of marijuana use, there are also psychological effects, as follows:
+High incidence of panic attacks.
+Dullness and inability to focus and remember.
+Anxiety and psychotic episodes that make it difficult to make decisions, which clearly affects the patient's life.
+High risk of schizophrenia."
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView10"
+            app:srcCompat="@drawable/alaa1" />
+        <TextView
+
+
+            android:id="@+id/text"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView6"
+            android:text="Complications of marijuana use"
+            android:textSize="30sp"
+            android:textColor="#E53935"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="175dp" />
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="42dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:text="Heavy use of marijuana leads to very bad effects on human health, including:
+
+Atrophy of the cerebral cortex.
+High incidence of epilepsy.
+Fetal malformations in mothers who use marijuana.
+marijuana addiction treatment
+One of the most difficult things he faces during the treatment of marijuana addiction is that the addict is not convinced that he is addicted, especially since marijuana addiction only comes in the long term, which makes the user think that he is in control of himself, and that he only uses it from time to time, and that he is not addicted.
+
+
+It is mentioned here that the rate of addiction increases from 4 to 7 times in people who started using at the age of less than 18 years.
+
+Examples of behavioral therapy
+Psychotherapy.
+Provide rewards to patients when they abstain for a period of time"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            />
+    </RelativeLayout>
+</ScrollView>
